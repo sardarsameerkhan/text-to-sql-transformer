@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DATA_DIR = Path("WikiSQL/data")
+DATA_DIR = Path("../WikiSQL/data")
 AGG_OPS = ["", "MAX", "MIN", "COUNT", "SUM", "AVG"]
 COND_OPS = ["=", ">", "<"]
 MAX_COLS = 64
