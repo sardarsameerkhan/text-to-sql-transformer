@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Dataset and binary files
+WikiSQL/
+starter/WikiSQL/
+*.db
+*.tar.bz2
+spm_corpus.txt
+
+# Tokenizer outputs
+starter/sql_sp.model
+starter/sql_sp.vocab
+sql_sp.model
+sql_sp.vocab
+
+# Generated jsonl files
+*.jsonl
+
+# Models & figures
+*.pt
+results/
